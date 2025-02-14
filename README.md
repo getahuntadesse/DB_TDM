@@ -4,7 +4,6 @@ The goal is to allow the controller to enforce a distance bound (maximum hop cou
 1. Algorithm in `switches.py`:
 
 This app is responsible for the following:
-
 LLDP-based Topology Discovery:Discovering the network topology using LLDP packets.
 RTT Measurement: Periodically sending LLDP packets with timestamps to measure the RTT to each switch.
 Dynamic RTT Threshold Calculation: Calculating a dynamic RTT threshold based on recent RTT history for each switch.
